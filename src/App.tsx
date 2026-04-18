@@ -168,12 +168,7 @@ function App() {
                 <span>Production Showcase</span>
               </div>
             </div>
-            <div className="gallery-item">
-              <img src="/assets/gallery/1.jpg" alt="Innovation Workspace" loading="lazy" />
-            </div>
-            <div className="gallery-item">
-              <img src="/assets/gallery/2.jpg" alt="Team Collaboration" loading="lazy" />
-            </div>
+         
             <div className="gallery-item tall">
               <img src="/assets/gallery/2026-04-16 09.40.45.jpg" alt="Girar Systems Office" loading="lazy" />
             </div>
