@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  girar-landing-page:
+    image: nginx:alpine
+    container_name: girar-landing-page
+    volumes:
+      - ./dist:/usr/share/nginx/html
+    ports:
+      - "9017:80"
+    restart: unless-stopped
